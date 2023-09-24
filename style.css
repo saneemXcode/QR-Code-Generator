@@ -72,6 +72,7 @@ body{
     color: rgb(86, 125, 203);
     font-weight: 600;
     border-radius: var(--border-radius);
+    margin-top: 30px;
 }
 .qr-footer a:hover{
     transform: scale(0.9);
@@ -92,7 +93,10 @@ body{
     border-radius: var(--border-radius);
 }
 
-@media screen and (max-width:600px) {
+@media only screen and (max-width:600px) {
+    select#sizes {
+        innerHTML: '<option value="100">100</option><option value="200">200</option>';
+    }
     .box{
         background-color:var(--primary-color) ;
         padding: 30px;
@@ -126,16 +130,20 @@ body{
     .qr-header h1{
      
         margin-bottom: 10px;
-      
-        
     }
-    .qr-body img{
+    .qr-body{
+        display: none;
+        justify-content: center;
+        align-items: center;
         max-width: 100%;
-        max-height: 100%;
-        margin-block: 10px;
+        margin-left: 30px;
+        margin-top: 20px;
         padding: 20px;
         border: 0.5px solid rgb(84, 77, 77);
         border-radius: var(--border-radius);
+    }  
+    .qr-footer a{
+        margin-top: 30px;
+       
     }
-    
     }
