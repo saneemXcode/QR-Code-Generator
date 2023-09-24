@@ -103,7 +103,11 @@
                 marginLeft = "25%";
             } else if (size === "150") {
                 maxWidth = "75%";
-                marginLeft = "12.5%";
+                marginLeft = "15.5%";
+            }
+                else if (size === "200") {
+                    maxWidth = "75%";
+                    marginLeft = "12.5%";
             }
     
             qrContainer.style.maxWidth = maxWidth;
