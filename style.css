@@ -139,7 +139,7 @@ body{
         margin-left: 30px;
         margin-top: 20px;
         padding: 20px;
-        border: 0.5px solid rgb(84, 77, 77);
+        border: 1.5px solid rgb(84, 77, 77);
         border-radius: var(--border-radius);
     }  
     .qr-footer a{

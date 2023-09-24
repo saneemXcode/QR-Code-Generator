@@ -106,8 +106,8 @@
                 marginLeft = "15.5%";
             }
                 else if (size === "200") {
-                    maxWidth = "75%";
-                    marginLeft = "12.5%";
+                    maxWidth = "100%";
+                    marginLeft = "0";
             }
     
             qrContainer.style.maxWidth = maxWidth;
