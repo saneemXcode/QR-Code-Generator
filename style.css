@@ -31,8 +31,9 @@ body{
     10px 10px 70px #9affff,
     inset -5px -5px 15px  #538090,
     inset -5px -5px 15px var(--primary-color);
-    border-top:2px solid #00ffc2;
-    border-left:2px solid #00ffc2;
+    border-top:2px solid #367baf ;
+    border-left:2px solid  #367baf;
+  
 }
 .qr-header h1{
     font-size: 20px;
