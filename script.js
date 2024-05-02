@@ -110,7 +110,8 @@
                     maxWidth = "100%";
                     marginLeft = "0";
             }
-    
+           
+
             qrContainer.style.maxWidth = maxWidth;
             qrContainer.style.marginLeft = marginLeft;
     
