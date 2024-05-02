@@ -10,12 +10,12 @@
     function updateSizeOptions() {
         // Check screen width
         const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-        const availableSizes = [100, 150, 200];
-
-        // Limit available sizes to 100, 150, and 200 on smaller screens
+        const availableSizesToSmallScreen = [100, 150, 200];
+        const availableSizesToLargeScreen = [100,150,200,250,300];
+        
         if (screenWidth <= 600) {
             sizes.innerHTML = ""; // Clear existing options
-            for (const s of availableSizes) {
+            for (const s of availableSizesToSmallScreen) {
                 const option = document.createElement('option');
                 option.value = s;
                 option.text = `${s}x${s}`;
@@ -24,7 +24,8 @@
         } else {
             // Restore all size options for larger screens
             sizes.innerHTML = ""; // Clear existing options
-            for (const s of availableSizes) {
+
+            for (const s of availableSizesToLargeScreen) {
                 const option = document.createElement('option');
                 option.value = s;
                 option.text = `${s}x${s}`;
