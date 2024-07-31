@@ -127,7 +127,7 @@ body{
     .box{
         background-color:var(--primary-color) ;
         padding: 30px;
-        width: 325px;
+        min-width:320px;;
         border-radius: var(--border-radius);
     
     }
